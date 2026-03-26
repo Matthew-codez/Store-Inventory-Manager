@@ -1,23 +1,27 @@
 package Repository;
 
+/* InventoryRepository.java
+InventoryRepository class
+Author: Jayden Avontuur (222032278)
+Date: 21 March 2026*/
+
 import Domain.Inventory;
-import Repository.InventoryRepository;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class InventoryRepositoryImpl implements InventoryRepository {
+public class InventoryRepository implements IInventoryRepository {
 
-    private static InventoryRepositoryImpl repository = null;
+    private static InventoryRepository repository = null;
     private Set<Inventory> inventoryDB;
 
-    private InventoryRepositoryImpl() {
+    private InventoryRepository() {
         inventoryDB = new HashSet<>();
     }
 
-    public static InventoryRepositoryImpl getRepository() {
+    public static InventoryRepository getRepository() {
         if (repository == null) {
-            repository = new InventoryRepositoryImpl();
+            repository = new InventoryRepository();
         }
         return repository;
     }

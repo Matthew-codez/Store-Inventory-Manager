@@ -1,21 +1,25 @@
 package Repository;
 
+/* CategoryRepositoryTest.java
+CategoryRepositoryTest class
+Author: Jayden Avontuur (222032278)
+Date: 21 March 2026*/
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import Domain.Category;
 import Factory.CategoryFactory;
-import Repository.CategoryRepositoryImpl;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class CategoryRepositoryTest {
 
-    private CategoryRepository repository;
+    private ICategoryRepository repository;
     private Category category;
 
     @BeforeEach
     void setUp() {
-        repository = CategoryRepositoryImpl.getRepository();
+        repository = CategoryRepository.getRepository();
 
         category = CategoryFactory.createCategory(
                 "C01",

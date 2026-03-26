@@ -1,22 +1,26 @@
 package Repository;
 
+/* InventoryRepositoryTest.java
+InventoryRepositoryTest class
+Author: Jayden Avontuur (222032278)
+Date: 21 March 2026*/
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import Domain.*;
 import Factory.InventoryFactory;
-import Repository.InventoryRepositoryImpl;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class InventoryRepositoryTest {
 
-    private InventoryRepository repository;
+    private IInventoryRepository repository;
     private Inventory inventory;
     private Product product;
 
     @BeforeEach
     void setUp() {
-        repository = InventoryRepositoryImpl.getRepository();
+        repository = InventoryRepository.getRepository();
 
         // Dummy product (must exist in your domain)
         product = new Product.Builder("P01", "Laptop").build();

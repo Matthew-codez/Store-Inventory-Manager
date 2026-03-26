@@ -1,5 +1,10 @@
 package Factory;
 
+/* InventoryFactoryTest.java
+InventoryFactoryTest class
+Author: Jayden Avontuur (222032278)
+Date: 21 March 2026*/
+
 import org.junit.jupiter.api.Test;
 import Domain.*;
 

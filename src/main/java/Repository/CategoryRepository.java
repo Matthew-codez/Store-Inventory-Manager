@@ -1,22 +1,27 @@
 package Repository;
 
+/* CategoryRepository.java
+CategoryRepositoryImpl class
+Author: Jayden Avontuur (222032278)
+Date: 21 March 2026*/
+
 import Domain.Category;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class CategoryRepositoryImpl implements CategoryRepository {
+public class CategoryRepository implements ICategoryRepository {
 
-    private static CategoryRepositoryImpl repository = null;
+    private static CategoryRepository repository = null;
     private Set<Category> categoryDB;
 
-    private CategoryRepositoryImpl() {
+    private CategoryRepository() {
         categoryDB = new HashSet<>();
     }
 
-    public static CategoryRepositoryImpl getRepository() {
+    public static CategoryRepository getRepository() {
         if (repository == null) {
-            repository = new CategoryRepositoryImpl();
+            repository = new CategoryRepository();
         }
         return repository;
     }

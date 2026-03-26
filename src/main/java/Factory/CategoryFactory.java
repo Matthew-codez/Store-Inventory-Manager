@@ -1,7 +1,7 @@
 package Factory;
 
-/* CustomerCategory.java
-CustomerCategory class
+/* CategoryFactory.java
+CategoryFactory class
 Author: Jayden Avontuur (222032278)
 Date: 19 March 2026*/
 
