@@ -15,23 +15,23 @@ public class Helper {
 
       public static boolean isValidQuantity(int quantity) {
                   if (quantity < 0) {
-                        return true;
+                        return false;
                   }
-                  return false;
+                  return true;
             }
 
       public static boolean isValidPrice(double price) {
                   if (price <= 0) {
-                        return true;
+                        return false;
                   }
-                  return false;
+                  return true;
             }
 
       public static boolean isValidStockLevels(int min, int max) {
                   if (min < 0 || max < 0 || min > max) {
-                        return true;
+                        return false;
                   }
-                  return false;
+                  return true;
             }
       }
 
