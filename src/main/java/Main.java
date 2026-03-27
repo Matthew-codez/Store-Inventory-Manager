@@ -1,8 +1,9 @@
 /*Author : Zacharia dipidi
 Date: 24 march 2026
  */
-package Domain;
 
+import Domain.Product;
+import Domain.Store;
 import Factory.StoreFactory;
 import Factory.productFactory;
 
