@@ -13,10 +13,6 @@ import Factory.CustomerFactory;
 import Factory.OrderFactory;
 import repository.CustomerRepositoryImpl;
 import repository.OrderRepositoryImpl;
-import Domain.Product;
-import Domain.Store;
-import Factory.StoreFactory;
-import Factory.productFactory;
 
 public class Main {
         public static void main(String[] args) {
@@ -137,13 +133,6 @@ public class Main {
             System.out.println("Deleting order ORD002");
             orderRepo.delete("ORD002");
             System.out.println("Deleted: " + orderRepo.read("ORD002") + "\n");
-            Product product = productFactory.createProduct("1234", "Iphone17", "promax", "R29000");
-
-
-            Store store = StoreFactory.createStore("410", "Istore", "0114101754", "cape town"
-                    ,product);
-            System.out.println(store.toString());
-
 
         }
 }
