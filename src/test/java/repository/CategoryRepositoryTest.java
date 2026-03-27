@@ -1,4 +1,4 @@
-package Repository;
+package repository;
 
 /* CategoryRepositoryTest.java
 CategoryRepositoryTest class
@@ -9,7 +9,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import Domain.Category;
 import Factory.CategoryFactory;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class CategoryRepositoryTest {

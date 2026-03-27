@@ -4,7 +4,6 @@ Date: 24 march 2026
 package repository;
 
 import Domain.Product;
-
 import java.util.ArrayList;
 import java.util.List;
 

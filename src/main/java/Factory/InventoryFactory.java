@@ -7,9 +7,11 @@ Date: 19 March 2026*/
 
 import Domain.Inventory;
 import Domain.Category;
+import Domain.Product;
 import Util.Helper;
 
 import java.time.LocalDate;
+import java.util.function.Supplier;
 
 public class InventoryFactory {
 

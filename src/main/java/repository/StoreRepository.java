@@ -3,9 +3,8 @@ Date: 24 march 2026
  */
 package repository;
 
-import Domain.Product;
-import Domain.Store;
 
+import Domain.Store;
 import java.util.ArrayList;
 import java.util.List;
 

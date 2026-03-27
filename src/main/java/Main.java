@@ -1,5 +1,3 @@
-public class Main {
-}
 /* Main.java
 Main class
 Author: Matthew Ferreira (230048870)

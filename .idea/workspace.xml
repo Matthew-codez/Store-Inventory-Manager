@@ -5,48 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a19e5b7-6771-424a-a03b-b908860b58c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Store-Inventory-Manager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/CustomerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/OrderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Domain/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Domain/OrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Factory/CustomerFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Factory/OrderFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/CustomerRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/OrderRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Customer$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Order$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Factory/CustomerFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Factory/Employee_Factory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Factory/OrderFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Repository/CustomerRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Repository/CustomerRepositoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Repository/ICustomerRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Repository/IOrderRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Repository/IRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Repository/OrderRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Repository/OrderRepositoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Util/Helper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Domain/CustomerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Domain/OrderTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Factory/CustomerFactoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Factory/OrderFactoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Repository/CustomerRepositoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Repository/OrderRepositoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/Employee_Factory.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/ICategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ICategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/IInventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/IInventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/IRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ICustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ICustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/IOrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/IOrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/IProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/IProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repository/IRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/IRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repository/IStoreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/IStoreRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/OrderRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/OrderRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/StoreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/StoreRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/CategoryRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/repository/CategoryRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/InventoryRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/repository/InventoryRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +89,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "Matthew",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -136,7 +110,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderRepositoryTest.testDeleteOrder">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Store_Inventory_Manager" />
@@ -218,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.OrderRepositoryTest.testDeleteOrder" />
         <item itemvalue="JUnit.CustomerRepositoryTest.delete" />
         <item itemvalue="JUnit.ProductRepositoryTest.delete" />
         <item itemvalue="JUnit.CustomerRepositoryTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

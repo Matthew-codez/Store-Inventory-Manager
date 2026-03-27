@@ -6,6 +6,7 @@ Author: Jayden Avontuur (222032278)
 Date: 19 March 2026*/
 
 import java.time.LocalDate;
+import java.util.function.Supplier;
 
 public class Inventory {
 
