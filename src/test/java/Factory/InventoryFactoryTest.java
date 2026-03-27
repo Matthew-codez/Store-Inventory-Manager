@@ -7,7 +7,8 @@ Date: 21 March 2026*/
 
 import org.junit.jupiter.api.Test;
 import Domain.*;
-import Factory.CategoryFactory;
+
+import java.util.function.Supplier;
 
 import static org.junit.jupiter.api.Assertions.*;
 
